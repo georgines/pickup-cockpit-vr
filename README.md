@@ -22,7 +22,7 @@ A proposta se encaixa no contexto do **Metaverso** como uma experiência de apre
 
 ## Objetivo
 
-Criar uma experiência VR simples, navegável e interativa, aplicando fundamentos de XR com Unity, Meta XR SDK, OpenXR e Meta XR Simulator.
+Criar uma experiência VR simples, navegável e interativa para demonstração de produto, aplicando fundamentos de XR com Unity, Meta XR SDK, OpenXR e Meta XR Simulator.
 
 O fluxo principal da experiência é:
 
