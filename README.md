@@ -4,6 +4,8 @@
   <img src="docs/img/imagem_projeto.png" alt="Menu VR com botão para dirigir a caminhonete" width="1024">
 </p>
 
+> **Demonstração em vídeo:** [https://youtu.be/xopF4vOyrFk](https://youtu.be/xopF4vOyrFk)
+
 Projeto acadêmico de realidade virtual feito em Unity. A experiência permite explorar um ambiente 3D, abrir um menu VR flutuante e entrar na cabine de uma caminhonete para dirigir usando o Meta XR Simulator.
 
 ## Aluno
@@ -233,3 +235,27 @@ Assets/
 ## Status do projeto
 
 Projeto acadêmico desenvolvido para estudo de Realidade Virtual, Unity, Meta Quest, OpenXR e fundamentos de experiências imersivas no Metaverso.
+
+---
+
+## Pacotes e assets utilizados
+
+### Pacotes Unity (Package Manager)
+
+| Pacote | Versão | Link |
+|---|---|---|
+| Meta XR All-in-One SDK | 201.0.0 | [Asset Store](https://assetstore.unity.com/packages/tools/integration/meta-xr-all-in-one-sdk-269657) |
+| Universal Render Pipeline (URP) | 17.3.0 | [Documentação](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@17.3/manual/) |
+| Input System | 1.19.0 | [Documentação](https://docs.unity3d.com/6000.3/Documentation/Manual/com.unity.inputsystem.html) |
+| OpenXR Plugin | 1.16.1 | [Documentação](https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.16/manual/index.html) |
+
+### Assets da Unity Asset Store
+
+| Asset | Uso no projeto | Link |
+|---|---|---|
+| Low-Poly Simple Nature Pack (JustCreate) | Árvores, arbustos, rochas e flores do cenário | [Asset Store](https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153) |
+| FREE Skybox Extended Shader (BOXOPHOBIC) | Skybox do ambiente externo | [Asset Store](https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400) |
+| Drivable-Free Low Poly Cars (AWBMEGAMES) | Modelo 3D da caminhonete | [Asset Store](https://assetstore.unity.com/packages/3d/vehicles/drivable-free-low-poly-cars-327427) |
+| Vehicle - Essentials (Nox_Sound) | Sons de buzina, freio de mão e outros efeitos do veículo | [Asset Store](https://assetstore.unity.com/packages/audio/sound-fx/transportation/vehicle-essentials-194951) |
+| i6 German - Free Engine Sound Pack (Skril Studio) | Sons de motor da caminhonete | [Asset Store](https://assetstore.unity.com/packages/audio/sound-fx/transportation/i6-german-free-engine-sound-pack-106037) |
+| Trilha sonora do rádio | Música de fundo da estação de rádio da caminhonete | [YouTube](https://www.youtube.com/watch?v=XBYKkWSeo94) |
