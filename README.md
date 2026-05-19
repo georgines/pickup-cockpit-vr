@@ -6,13 +6,9 @@
 
 Projeto acadêmico de realidade virtual feito em Unity. A experiência permite explorar um ambiente 3D, abrir um menu VR flutuante e entrar na cabine de uma caminhonete para dirigir usando o Meta XR Simulator.
 
-
-
 ## Aluno
 
 **Georgines Bezerra Pereira**
-
-
 
 ## Sobre o projeto
 
@@ -21,8 +17,6 @@ O **Pickup Cockpit VR** é uma demonstração automotiva em realidade virtual. O
 Depois de entrar no carro, a câmera VR é posicionada no cockpit e o usuário passa a controlar a caminhonete com os comandos simulados do Meta Quest.
 
 A proposta se encaixa no contexto do **Metaverso** como uma experiência de apresentação automotiva: em vez de apenas visualizar um veículo por fotos ou vídeos, o usuário entra no ambiente e experimenta a cabine em primeira pessoa.
-
-
 
 ## Objetivo
 
@@ -38,8 +32,6 @@ O fluxo principal da experiência é:
 6. Dirigir usando os comandos do Meta Quest pelo simulador.
 7. Sair da caminhonete pelo botão **Menu** do meta quest.
 
-
-
 ## Tecnologias utilizadas
 
 | Tecnologia | Uso no projeto |
@@ -51,8 +43,6 @@ O fluxo principal da experiência é:
 | Git LFS | Controle de arquivos grandes do Unity |
 | C# | Scripts de interação, entrada VR e controle do carro |
 
-
-
 ## Instalação no Windows
 
 ### Requisitos
@@ -63,7 +53,6 @@ Antes de abrir o projeto, instale:
 - Git LFS
 - Unity Hub
 - Unity 6000.3.13f1
-
 
 ### Clonar o projeto com Git LFS
 
@@ -101,7 +90,6 @@ git lfs pull
 
 Depois disso, feche e abra novamente o Unity.
 
-
 ## Como abrir no Unity
 
 1. Abra o **Unity Hub**.
@@ -114,8 +102,6 @@ Depois disso, feche e abra novamente o Unity.
 Assets/Scenes/minha_cena.unity
 ```
 
-
-
 ## Como executar
 
 1. Abra a cena principal no Unity.
@@ -123,13 +109,11 @@ Assets/Scenes/minha_cena.unity
 3. Clique em **Play** no Unity Editor.
 4. Use o simulador para controlar a experiência VR.
 
-
 ## Controles no simulador VR
 
 <p align="center">
   <img src="docs/img/comandos_teclado_simulador.png" alt="Menu VR com botão para dirigir a caminhonete" width="1024">
 </p>
-
 
 ## Desenvolvimento do projeto
 
@@ -156,8 +140,6 @@ A física da caminhonete fica centralizada no `ControleCarro.cs`. Ele não depen
 A entrada específica do Meta Quest fica no `EntradaVR.cs`. Essa separação deixa o controle do veículo mais organizado e facilita a manutenção do projeto.
 
 O `VRMotoristaCarro.cs` faz a ponte entre a experiência VR e o carro: quando o jogador entra na cabine, ele troca o estado da cena para o modo de direção.
-
-
 
 ## Dificuldades e soluções
 
@@ -209,7 +191,6 @@ Projetos Unity costumam usar arquivos grandes, como modelos, texturas, áudios e
 
 O repositório foi preparado para uso com **Git LFS**, garantindo o download correto dos arquivos grandes necessários para abrir a cena.
 
-
 ## Limitações conhecidas
 
 - A movimentação pode apresentar uma visão em formato circular durante o uso do simulador. Esse comportamento está relacionado aos recursos de conforto em VR.
@@ -217,8 +198,6 @@ O repositório foi preparado para uso com **Git LFS**, garantindo o download cor
 - Os controles de teclado e Xbox não fazem parte da experiência principal documentada.
 - Algumas melhorias visuais e de usabilidade ainda precisam ser feitas.
 - A experiência representa uma prova de conceito acadêmica, não uma versão final de produto.
-
-
 
 ## Melhorias futuras
 
@@ -228,8 +207,6 @@ O repositório foi preparado para uso com **Git LFS**, garantindo o download cor
 - Melhorar os feedbacks visuais e sonoros durante a direção.
 - Refinar a condução da caminhonete.
 - Criar uma experiência mais completa de showroom automotivo.
-
-
 
 ## Estrutura principal
 
@@ -252,8 +229,6 @@ Assets/
 └── cenario/
     └── assets do ambiente
 ```
-
-
 
 ## Status do projeto
 

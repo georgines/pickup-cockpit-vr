@@ -128,3 +128,9 @@ local.properties
 Thumbs.db
 Desktop.ini
 .idea/
+
+# Arquivos locais / auxiliares
+.mcp.json
+.vsconfig
+CLAUDE.md
+objetivo_projeto.md
