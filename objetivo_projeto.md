@@ -1,0 +1,12 @@
+## Objetivo do Projeto
+- Explorar o ambiente a pé em VR com movimentação livre
+- Aproximar do carro e abrir o menu VR flutuante
+- Clicar em "Ligar Carro" no menu para entrar no carro
+- Aparecer a mensagem "DENTRO DO CARRO" posicionada ao centro da tela do vr
+- desativar o recurso de andar a pé — jogador fica preso ao carro e sem os controles visíveis mas todas as entradas dos controles ainda funcionam.
+- o carro pode ser dirigido através das teclas que já estão configuradas em entradas vr.
+- Olhar ao redor livremente movendo a cabeça com o headset.
+- Pressionar o botão Menu para sair do carro.
+- Aparecer a mensagem "FORA DO CARRO" posicionada ao centro da tela do vr. 
+- Carro para no lugar com freio de mão ativo.
+- reativar o recurso de andar a pé — jogador volta a explorar.
